@@ -1,18 +1,18 @@
-price1 = float(input("Enter price of item 1: "))
-qty1 = int(input("Enter quantity of item 1: "))
+p1 = float(input("type price 1: "))
+n1 = int(input("type how many 1: "))
 
-price2 = float(input("Enter price of item 2: "))
-qty2 = int(input("Enter quantity of item 2: "))
+p2 = float(input("type price 2: "))
+n2 = int(input("type how many 2: "))
 
-price3 = float(input("Enter price of item 3: "))
-qty3 = int(input("Enter quantity of item 3: "))
+p3 = float(input("type price 3: "))
+n3 = int(input("type how many 3: "))
 
-total1 = price1 * qty1
-total2 = price2 * qty2
-total3 = price3 * qty3
-total = total1 + total2 + total3
+t1 = p1 * n1
+t2 = p2 * n2
+t3 = p3 * n3
+t = t1 + t2 + t3
 
-print("Item 1 total:", total1)
-print("Item 2 total:", total2)
-print("Item 3 total:", total3)
-print("Final bill:", total)
+print("item 1 money:", t1)
+print("item 2 money:", t2)
+print("item 3 money:", t3)
+print("all money:", t)

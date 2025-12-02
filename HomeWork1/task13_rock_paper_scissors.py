@@ -16,15 +16,26 @@ else:
 
 print("Computer chose:", computer)
 
-if player != "rock" and player != "paper" and player != "scissors":
-    print("Wrong choice")
-elif player == computer:
-    print("Draw")
-elif player == "rock" and computer == "scissors":
-    print("You win")
-elif player == "paper" and computer == "rock":
-    print("You win")
-elif player == "scissors" and computer == "paper":
-    print("You win")
+if player == "rock":
+    if computer == "rock":
+        print("Draw")
+    elif computer == "scissors":
+        print("You win")
+    else:
+        print("You lose")
+elif player == "paper":
+    if computer == "paper":
+        print("Draw")
+    elif computer == "rock":
+        print("You win")
+    else:
+        print("You lose")
+elif player == "scissors":
+    if computer == "scissors":
+        print("Draw")
+    elif computer == "paper":
+        print("You win")
+    else:
+        print("You lose")
 else:
-    print("You lose")
+    print("Wrong choice")
